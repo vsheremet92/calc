@@ -1,0 +1,45 @@
+body {
+  background: lightgray; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px; }
+  table .digit {
+    background-color: #c5cae9; }
+    table .digit:hover {
+      background-color: #b3b9e2; }
+  table .action, table .ops {
+    background-color: orange; }
+    table .action:hover, table .ops:hover {
+      background-color: #cc8400; }
+  table td {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    padding: 25px;
+    cursor: pointer;
+    background-color: lightgrey; }
+    table td:hover {
+      background-color: #c6c6c6; }
+
+h1 {
+  color: green;
+  text-align: center; }
+
+.calc-parent {
+  width: 370px;
+  margin: 0 auto;
+  border-radius: 25px;
+  background: rgba(118, 125, 152, 0.6); }
+
+#state {
+  width: 315px;
+  height: 70px;
+  text-align: right;
+  font-size: 55px;
+  border-radius: 15px;
+  outline: none;
+  margin: 15px auto auto 10px;
+  padding: 0 15px; }

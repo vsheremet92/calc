@@ -1,0 +1,10 @@
+{
+  "name": "calc",
+  "description": "Will I get in time?",
+  "main": "index.js",
+  "authors": [
+    "Me"
+  ],
+  "license": "ISC",
+  "homepage": "index.html"
+}
