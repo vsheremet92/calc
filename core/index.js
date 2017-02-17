@@ -16,6 +16,21 @@ var currentAction = '';
 
 var result = 0;
 
+function digitPressed(e) {
+    if (currNumber === '0' || result === '0') currNumber = '';
+    currNumber+=$(this).html();
+    console.log(e);
+    //else if (48 < digit < 57) currNumber += String(digit-48);
+    //else return;
+    state.val(currNumber);
+}
+
+/* $(document).keydown(function (e) {
+    digitPressed();
+}); */
+
+digit.click(digitPressed);
+
 action.click (function () {
     firstNumber = currNumber;
     state.val(firstNumber);
@@ -34,12 +49,6 @@ action.click (function () {
             currentAction = 'addition';
             break;
     };
-});
-
-digit.click(function () {
-    if (currNumber === '0' || result === '0') currNumber = '';
-    currNumber+=$(this).html();
-    state.val(currNumber);
 });
 
 getResult.click (function () {

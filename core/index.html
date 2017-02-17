@@ -2,44 +2,43 @@
 <html>
 
 <head>
-    <title>Tyu</title>
+    <title>Counter</title>
     <link rel="stylesheet" href="dist/main.css">
 </head>
 
 <body>
-    <h1> Counter </h1>
     <div class="calc-parent">
         <input type="text" id="state" readonly>
         <table>
             <tr>
-                <td id="clear">C</td>
-                <td id="plus-minus">+/-</td>
-                <td>%</td>
-                <td class="action" id="div">/</td>
+                <td class="button" id="clear">C</td>
+                <td class="button" id="plus-minus">+/-</td>
+                <td class="button">%</td>
+                <td class="button action" id="div">/</td>
             </tr>
             <tr>
-                <td class="digit">7</td>
-                <td class="digit">8</td>
-                <td class="digit">9</td>
-                <td class="action" id="mult">*</td>
+                <td class="button digit">7</td>
+                <td class="button digit">8</td>
+                <td class="button digit">9</td>
+                <td class="button action" id="mult">*</td>
             </tr>
             <tr>
-                <td class="digit">4</td>
-                <td class="digit">5</td>
-                <td class="digit">6</td>
-                <td class="action" id="sub">-</td>
+                <td class="button digit">4</td>
+                <td class="button digit">5</td>
+                <td class="button digit">6</td>
+                <td class="button action" id="sub">-</td>
             </tr>
             <tr>
-                <td class="digit">1</td>
-                <td class="digit">2</td>
-                <td class="digit">3</td>
-                <td class="action" id="add">+</td>
+                <td class="button digit">1</td>
+                <td class="button digit">2</td>
+                <td class="button digit">3</td>
+                <td class="button action" id="add">+</td>
             </tr>
             <tr>
-                <td class="digit digit-zero">0</td>
-                <td>.</td>
-                <td>M</td>
-                <td class="ops" id="get-result">=</td>
+                <td class="button digit digit-zero">0</td>
+                <td class="button">.</td>
+                <td class="button">M</td>
+                <td class="button ops" id="get-result">=</td>
             </tr>
         </table>
     </div>

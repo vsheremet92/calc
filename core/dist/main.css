@@ -4,6 +4,8 @@ body {
 table {
   border-collapse: separate;
   border-spacing: 10px; }
+  table .button:active {
+    font-size: 23px; }
   table .digit {
     background-color: #c5cae9; }
     table .digit:hover {
@@ -24,11 +26,8 @@ table {
     table td:hover {
       background-color: #c6c6c6; }
 
-h1 {
-  color: green;
-  text-align: center; }
-
 .calc-parent {
+  margin-top: 60px !important;
   width: 370px;
   margin: 0 auto;
   border-radius: 25px;
